@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-app = Flask(__name__)
+//app = Flask(__name__)
 
 
 
@@ -45,11 +45,8 @@ for x in range(1, 2):
 
 # print(list_arr)
 # save(app_list)
+print('final')
 saveAsJson(final_data)
  
 
-
-
-@app.route('/')
-def hello_world():
-    return 'Hello, World!'
+ 
